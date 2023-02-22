@@ -3,22 +3,12 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from 'next/image';
 
-import deved from '../../public/dev-ed-wave.png';
-import design from '../../public/design.png';
-import code from '../../public/code.png';
-
 import python from '../../public/python.png';
 import javascript from '../../public/javascript.png';
 import rust from '../../public/rust.png';
 
-import consulting from '../../public/consulting.png';
 import joke from '../../public/bytes_joke.png';
-import web1 from "../../public/web1.png";
-import web2 from "../../public/web2.png";
-import web3 from "../../public/web3.png";
-import web4 from "../../public/web4.png";
-import web5 from "../../public/web5.png";
-import web6 from "../../public/web6.png";
+
 
 import socialmedia from "../../public/socialmedia.png";
 import glasses from "../../public/glasses.png";
