@@ -100,7 +100,7 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image className='mx-auto' src={rust} width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Rust</h3>
-              <p className='py-2'>Wanted to learn a compiled programming language to have alongside C++. Used for simple console applications and desktop applications</p>
+              <p className='py-2'>Wanted to learn a compiled programming language to have alongside C++. Used for simple console applications, desktop and web applications</p>
 
               <h4 className='py-4 text-teal-600'>Favorite frameworks/libraries used</h4>
               <p className='text-gray-800 py-1'>Tauri</p>
@@ -114,7 +114,7 @@ export default function Home() {
             <h3 className='text-3xl py-1 dark:text-gray-400'>Projects</h3>
             <div className='text-center p-10'>
               <h3 className='text-3xl py-1 dark:text-gray-400'>Projects in action</h3>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>Below are some of my favorite projects that I have done</p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>Below are some of my favorite projects that I have done. C++ and C# add to my favorite programming languages list to make it a top 5</p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>Click on each picture to take you to its respective github repository</p>
 
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
               </div>
 
               <div className='basis-1/3 flex-1'>
-                <h1 className='dark:text-gray-400'>Python: Used Pytorch to classify last names into languages of origin</h1>
+                <h1 className='dark:text-gray-400'>Python: Used Pytorch and Gradio to classify last names into languages of origin</h1>
                 <a href='https://github.com/55jflores/NameClassifier'>
                 <Image className='rounded-lg object-cover'width={'100%'} height={'100%'} responsive = "true" src={names}  />
                 </a>
@@ -150,7 +150,7 @@ export default function Home() {
               </div>
 
               <div className='basis-1/3 flex-1'>
-                <h1 className='dark:text-gray-400'>Rust: Tauri app that uses React and Rust as a backend to display the NASA APOD</h1>
+                <h1 className='dark:text-gray-400'>Rust: Tauri app that uses React as a front end and Rust as a backend to display the NASA APOD</h1>
                 <a href='https://github.com/55jflores/tauri_app'>
                 <Image className='rounded-lg object-cover'width={'100%'} height={'100%'} responsive = "true" src={tauri} />
                 </a>
