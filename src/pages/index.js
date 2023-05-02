@@ -42,7 +42,11 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>JesusCreations</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill color={darkMode ? 'white':'black'} onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' /></li>
+<<<<<<< HEAD
               <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/55jflores/55jflores/files/11369388/jflores_resume.pdf">Resume</a></li>
+=======
+              <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://github.com/55jflores/55jflores/files/10939124/jflores_resume.pdf">Resume</a></li>
+>>>>>>> 9cfeaffb792ef448aa5945e4de0d155700ef96f5
             </ul>
           </nav>
 
